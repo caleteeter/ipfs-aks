@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "provisionType": {
+            "value": "joinExisting"
+        },
+        "memberId": {
+            "value": 2
+        },
+        "swarmKeyValue": {
+            "value": "0ebe647fa124ace0426d1ab67da9ea917b8e5c8e2880fe2be43e02a793f30f46"
+        }
+    }
+}
